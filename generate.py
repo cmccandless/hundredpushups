@@ -60,6 +60,7 @@ class PushupSetGroup(object):
 class Day(object):
     def __init__(self, number=0, rest=0):
         self.number = number
+        self.rest = rest
         self.set_groups = []
 
     def add_set_group(self, grp):
