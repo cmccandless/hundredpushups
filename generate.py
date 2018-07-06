@@ -223,10 +223,12 @@ def create_md(weeks, filename):
                             *(f'{n}+' for n in row)
                         )
                 writer.write(table)
+                writer.writeline('---')
             if i in (2, 4):
                 writer.writeline(mdg.strong(
                     'Do exhaustion test at the end of this week'
                 ))
+                writer.writeline('\n---')
 
 
 if __name__ == '__main__':

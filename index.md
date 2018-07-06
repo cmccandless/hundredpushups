@@ -43,6 +43,7 @@ Total: ~4min
 | Set 4 | 2 | 4 | 7 |
 | Set 5 | 3+ | 5+ | 9+ |
 
+---
 ### Week 1: Day 2
 Rest: 60s
 
@@ -56,6 +57,7 @@ Total: ~5min
 | Set 4 | 3 | 6 | 8 |
 | Set 5 | 4+ | 7+ | 12+ |
 
+---
 ### Week 1: Day 3
 Rest: 60s
 
@@ -69,6 +71,7 @@ Total: ~5min
 | Set 4 | 4 | 7 | 9 |
 | Set 5 | 5+ | 10+ | 13+ |
 
+---
 ## Week 2
 
 ### Week 2: Day 1
@@ -84,6 +87,7 @@ Total: ~5min
 | Set 4 | 4 | 8 | 10 |
 | Set 5 | 6+ | 11+ | 15+ |
 
+---
 ### Week 2: Day 2
 Rest: 90s
 
@@ -97,6 +101,7 @@ Total: ~7min
 | Set 4 | 4 | 9 | 12 |
 | Set 5 | 7+ | 13+ | 17+ |
 
+---
 ### Week 2: Day 3
 Rest: 120s
 
@@ -110,7 +115,10 @@ Total: ~9min
 | Set 4 | 5 | 10 | 14 |
 | Set 5 | 8+ | 15+ | 20+ |
 
+---
 **Do exhaustion test at the end of this week**
+
+---
 ## Week 3
 
 ### Week 3: Day 1
@@ -126,6 +134,7 @@ Total: ~5min
 | Set 4 | 7 | 13 |
 | Set 5 | 9+ | 17+ |
 
+---
 ### Week 3: Day 2
 Rest: 90s
 
@@ -139,6 +148,7 @@ Total: ~8min
 | Set 4 | 8 | 14 |
 | Set 5 | 12+ | 19+ |
 
+---
 ### Week 3: Day 3
 Rest: 120s
 
@@ -152,6 +162,7 @@ Total: ~10min
 | Set 4 | 9 | 15 |
 | Set 5 | 13+ | 21+ |
 
+---
 ## Week 4
 
 ### Week 4: Day 1
@@ -167,6 +178,7 @@ Total: ~6min
 | Set 4 | 10 | 16 |
 | Set 5 | 16+ | 25+ |
 
+---
 ### Week 4: Day 2
 Rest: 90s
 
@@ -180,6 +192,7 @@ Total: ~9min
 | Set 4 | 12 | 20 |
 | Set 5 | 18+ | 28+ |
 
+---
 ### Week 4: Day 3
 Rest: 120s
 
@@ -193,7 +206,10 @@ Total: ~11min
 | Set 4 | 13 | 23 |
 | Set 5 | 20+ | 33+ |
 
+---
 **Do exhaustion test at the end of this week**
+
+---
 ## Week 5
 
 ### Week 5: Day 1
@@ -209,6 +225,7 @@ Total: ~7min
 | Set 4 | 15 | 22 |
 | Set 5 | 20+ | 35+ |
 
+---
 ### Week 5: Day 2
 Rest: 45s
 
@@ -225,6 +242,7 @@ Total: ~9min
 | Set 7 | 9 | 16 |
 | Set 8 | 25+ | 40+ |
 
+---
 ### Week 5: Day 3
 Rest: 45s
 
@@ -241,6 +259,7 @@ Total: ~10min
 | Set 7 | 10 | 20 |
 | Set 8 | 30+ | 45+ |
 
+---
 ## Week 6
 
 ### Week 6: Day 1
@@ -256,6 +275,7 @@ Total: ~9min
 | Set 4 | 15 | 25 |
 | Set 5 | 40+ | 50+ |
 
+---
 ### Week 6: Day 2
 Rest: 45s
 
@@ -273,6 +293,7 @@ Total: ~12min
 | Set 8 | 10 | 18 |
 | Set 9 | 44+ | 53+ |
 
+---
 ### Week 6: Day 3
 Rest: 45s
 
@@ -290,3 +311,4 @@ Total: ~12min
 | Set 8 | 14 | 18 |
 | Set 9 | 50+ | 55+ |
 
+---
