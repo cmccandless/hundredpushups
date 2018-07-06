@@ -186,13 +186,13 @@ def create_md(weeks, filename):
         for i in range(1, 7):
             writer.write('- ')
             writer.writeline(mdg.link(
-                f'#week{i}',
+                f'#week-{i}',
                 f'Week {i}'
             ))
             for j in range(1, 4):
                 writer.write('  - ')
                 writer.writeline(mdg.link(
-                    f'#week{i}day{j}',
+                    f'#week-{i}-day-{j}',
                     f'Day {j}'
                 ))
         writer.writeline()
@@ -202,9 +202,11 @@ def create_md(weeks, filename):
             writer.writeline()
             for j, day in enumerate(week.days, 1):
                 writer.write_heading(
-                    f'Week {i}: Day {j} (rest: {day.rest}s)',
+                    f'Week {i}: Day {j}',
                     3
                 )
+                writer.writeline(f'Rest: {day.rest}s')
+                writer.writeline()
                 writer.writeline(f'Total: ~{day.estimate()}min')
                 writer.writeline()
                 table = mdg.Table()

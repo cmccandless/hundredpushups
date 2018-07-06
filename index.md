@@ -3,34 +3,36 @@ from [hundredpushups.com](https://hundredpushups.com)
 
 ## Weeks
 
-- [Week 1](#week1)
-  - [Day 1](#week1day1)
-  - [Day 2](#week1day2)
-  - [Day 3](#week1day3)
-- [Week 2](#week2)
-  - [Day 1](#week2day1)
-  - [Day 2](#week2day2)
-  - [Day 3](#week2day3)
-- [Week 3](#week3)
-  - [Day 1](#week3day1)
-  - [Day 2](#week3day2)
-  - [Day 3](#week3day3)
-- [Week 4](#week4)
-  - [Day 1](#week4day1)
-  - [Day 2](#week4day2)
-  - [Day 3](#week4day3)
-- [Week 5](#week5)
-  - [Day 1](#week5day1)
-  - [Day 2](#week5day2)
-  - [Day 3](#week5day3)
-- [Week 6](#week6)
-  - [Day 1](#week6day1)
-  - [Day 2](#week6day2)
-  - [Day 3](#week6day3)
+- [Week 1](#week-1)
+  - [Day 1](#week-1-day-1)
+  - [Day 2](#week-1-day-2)
+  - [Day 3](#week-1-day-3)
+- [Week 2](#week-2)
+  - [Day 1](#week-2-day-1)
+  - [Day 2](#week-2-day-2)
+  - [Day 3](#week-2-day-3)
+- [Week 3](#week-3)
+  - [Day 1](#week-3-day-1)
+  - [Day 2](#week-3-day-2)
+  - [Day 3](#week-3-day-3)
+- [Week 4](#week-4)
+  - [Day 1](#week-4-day-1)
+  - [Day 2](#week-4-day-2)
+  - [Day 3](#week-4-day-3)
+- [Week 5](#week-5)
+  - [Day 1](#week-5-day-1)
+  - [Day 2](#week-5-day-2)
+  - [Day 3](#week-5-day-3)
+- [Week 6](#week-6)
+  - [Day 1](#week-6-day-1)
+  - [Day 2](#week-6-day-2)
+  - [Day 3](#week-6-day-3)
 
 ## Week 1
 
-### Week 1: Day 1 (rest: 60s)
+### Week 1: Day 1
+Rest: 60s
+
 Total: ~4min
 
 | Pushups | 0-5 | 6-10 | 11-20 |
@@ -41,7 +43,9 @@ Total: ~4min
 | Set 4 | 2 | 4 | 7 |
 | Set 5 | 3+ | 5+ | 9+ |
 
-### Week 1: Day 2 (rest: 60s)
+### Week 1: Day 2
+Rest: 60s
+
 Total: ~5min
 
 | Pushups | 0-5 | 6-10 | 11-20 |
@@ -52,7 +56,9 @@ Total: ~5min
 | Set 4 | 3 | 6 | 8 |
 | Set 5 | 4+ | 7+ | 12+ |
 
-### Week 1: Day 3 (rest: 60s)
+### Week 1: Day 3
+Rest: 60s
+
 Total: ~5min
 
 | Pushups | 0-5 | 6-10 | 11-20 |
@@ -65,7 +71,9 @@ Total: ~5min
 
 ## Week 2
 
-### Week 2: Day 1 (rest: 60s)
+### Week 2: Day 1
+Rest: 60s
+
 Total: ~5min
 
 | Pushups | 0-5 | 6-10 | 11-20 |
@@ -76,7 +84,9 @@ Total: ~5min
 | Set 4 | 4 | 8 | 10 |
 | Set 5 | 6+ | 11+ | 15+ |
 
-### Week 2: Day 2 (rest: 90s)
+### Week 2: Day 2
+Rest: 90s
+
 Total: ~7min
 
 | Pushups | 0-5 | 6-10 | 11-20 |
@@ -87,7 +97,9 @@ Total: ~7min
 | Set 4 | 4 | 9 | 12 |
 | Set 5 | 7+ | 13+ | 17+ |
 
-### Week 2: Day 3 (rest: 120s)
+### Week 2: Day 3
+Rest: 120s
+
 Total: ~9min
 
 | Pushups | 0-5 | 6-10 | 11-20 |
@@ -101,7 +113,9 @@ Total: ~9min
 **Do exhaustion test at the end of this week**
 ## Week 3
 
-### Week 3: Day 1 (rest: 60s)
+### Week 3: Day 1
+Rest: 60s
+
 Total: ~5min
 
 | Pushups | 16-20 | 21-25 |
@@ -112,7 +126,9 @@ Total: ~5min
 | Set 4 | 7 | 13 |
 | Set 5 | 9+ | 17+ |
 
-### Week 3: Day 2 (rest: 90s)
+### Week 3: Day 2
+Rest: 90s
+
 Total: ~8min
 
 | Pushups | 16-20 | 21-25 |
@@ -123,7 +139,9 @@ Total: ~8min
 | Set 4 | 8 | 14 |
 | Set 5 | 12+ | 19+ |
 
-### Week 3: Day 3 (rest: 120s)
+### Week 3: Day 3
+Rest: 120s
+
 Total: ~10min
 
 | Pushups | 16-20 | 21-25 |
@@ -136,7 +154,9 @@ Total: ~10min
 
 ## Week 4
 
-### Week 4: Day 1 (rest: 60s)
+### Week 4: Day 1
+Rest: 60s
+
 Total: ~6min
 
 | Pushups | 16-20 | 21-25 |
@@ -147,7 +167,9 @@ Total: ~6min
 | Set 4 | 10 | 16 |
 | Set 5 | 16+ | 25+ |
 
-### Week 4: Day 2 (rest: 90s)
+### Week 4: Day 2
+Rest: 90s
+
 Total: ~9min
 
 | Pushups | 16-20 | 21-25 |
@@ -158,7 +180,9 @@ Total: ~9min
 | Set 4 | 12 | 20 |
 | Set 5 | 18+ | 28+ |
 
-### Week 4: Day 3 (rest: 120s)
+### Week 4: Day 3
+Rest: 120s
+
 Total: ~11min
 
 | Pushups | 16-20 | 21-25 |
@@ -172,7 +196,9 @@ Total: ~11min
 **Do exhaustion test at the end of this week**
 ## Week 5
 
-### Week 5: Day 1 (rest: 60s)
+### Week 5: Day 1
+Rest: 60s
+
 Total: ~7min
 
 | Pushups | 31-35 | 36-40 |
@@ -183,7 +209,9 @@ Total: ~7min
 | Set 4 | 15 | 22 |
 | Set 5 | 20+ | 35+ |
 
-### Week 5: Day 2 (rest: 45s)
+### Week 5: Day 2
+Rest: 45s
+
 Total: ~9min
 
 | Pushups | 31-35 | 36-40 |
@@ -197,7 +225,9 @@ Total: ~9min
 | Set 7 | 9 | 16 |
 | Set 8 | 25+ | 40+ |
 
-### Week 5: Day 3 (rest: 45s)
+### Week 5: Day 3
+Rest: 45s
+
 Total: ~10min
 
 | Pushups | 31-35 | 36-40 |
@@ -213,7 +243,9 @@ Total: ~10min
 
 ## Week 6
 
-### Week 6: Day 1 (rest: 60s)
+### Week 6: Day 1
+Rest: 60s
+
 Total: ~9min
 
 | Pushups | 46-50 | 51-60 |
@@ -224,7 +256,9 @@ Total: ~9min
 | Set 4 | 15 | 25 |
 | Set 5 | 40+ | 50+ |
 
-### Week 6: Day 2 (rest: 45s)
+### Week 6: Day 2
+Rest: 45s
+
 Total: ~12min
 
 | Pushups | 46-50 | 51-60 |
@@ -239,7 +273,9 @@ Total: ~12min
 | Set 8 | 10 | 18 |
 | Set 9 | 44+ | 53+ |
 
-### Week 6: Day 3 (rest: 45s)
+### Week 6: Day 3
+Rest: 45s
+
 Total: ~12min
 
 | Pushups | 46-50 | 51-60 |
