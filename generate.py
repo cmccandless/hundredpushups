@@ -5,6 +5,8 @@ import re
 from json import dumps as json_dumps
 import sys
 import markdown_generator as mdg
+from io import StringIO
+from contextlib import closing
 
 requests_cache.install_cache()
 
@@ -94,6 +96,34 @@ class Day(object):
             'set_groups': [g.json() for g in self.set_groups]
         }
 
+    def md(self, week=0):
+        with closing(StringIO()) as s:
+            writer = mdg.Writer(s)
+            writer.write_heading(
+                f'Week {week}: Day {self.number}',
+                3
+            )
+            writer.writeline(f'Rest: {self.rest}s')
+            writer.writeline()
+            writer.writeline(f'Total: ~{self.estimate()}min')
+            writer.writeline()
+            table = mdg.Table()
+            table.add_column('Pushups')
+            for grp in self.set_groups:
+                table.add_column('{}-{}'.format(*grp.rule))
+            rows = list(zip(*(grp.sets for grp in self.set_groups)))
+            for k, row in enumerate(rows, 1):
+                if k < len(rows):
+                    table.append(f'Set {k}', *row)
+                else:
+                    table.append(
+                        f'Set {k}',
+                        *(f'{n}+' for n in row)
+                    )
+            writer.write(table)
+            writer.writeline('---')
+            return s.getvalue()
+
 
 class Week(object):
     def __init__(self, number, days=None):
@@ -111,6 +141,20 @@ class Week(object):
             'week_number': self.number,
             'days': [d.json() for d in self.days]
         }
+
+    def md(self):
+        with closing(StringIO()) as s:
+            writer = mdg.Writer(s)
+            writer.write_heading(f'Week {self.number}', 2)
+            writer.writeline()
+            for day in self.days:
+                writer.write(day.md(self.number))
+            if self.number in (2, 4):
+                writer.writeline(mdg.strong(
+                    'Do exhaustion test at the end of this week'
+                ))
+                writer.writeline('\n---')
+            return s.getvalue()
 
 
 def get_week(n):
@@ -177,13 +221,6 @@ def create_md(weeks, filename):
 
         writer.write_heading('Weeks', 2)
         writer.writeline()
-        # unordered = mdg.List()
-        # for i in range(1, 7):
-        #     unordered.append(mdg.link(
-        #         f'#week{i}',
-        #         f'Week {i}'
-        #     ))
-        # writer.write(unordered)
         for i in range(1, 7):
             writer.write('- ')
             writer.writeline(mdg.link(
@@ -197,39 +234,8 @@ def create_md(weeks, filename):
                     f'Day {j}'
                 ))
         writer.writeline()
-
-        for i, week in enumerate(weeks, 1):
-            writer.write_heading(f'Week {i}', 2)
-            writer.writeline()
-            for j, day in enumerate(week.days, 1):
-                writer.write_heading(
-                    f'Week {i}: Day {j}',
-                    3
-                )
-                writer.writeline(f'Rest: {day.rest}s')
-                writer.writeline()
-                writer.writeline(f'Total: ~{day.estimate()}min')
-                writer.writeline()
-                table = mdg.Table()
-                table.add_column('Pushups')
-                for grp in day.set_groups:
-                    table.add_column('{}-{}'.format(*grp.rule))
-                rows = list(zip(*(grp.sets for grp in day.set_groups)))
-                for k, row in enumerate(rows, 1):
-                    if k < len(rows):
-                        table.append(f'Set {k}', *row)
-                    else:
-                        table.append(
-                            f'Set {k}',
-                            *(f'{n}+' for n in row)
-                        )
-                writer.write(table)
-                writer.writeline('---')
-            if i in (2, 4):
-                writer.writeline(mdg.strong(
-                    'Do exhaustion test at the end of this week'
-                ))
-                writer.writeline('\n---')
+        for week in weeks:
+            writer.write(week.md())
 
 
 if __name__ == '__main__':
