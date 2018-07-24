@@ -20,7 +20,7 @@ RGX_REST = re.compile(
     flags=re.IGNORECASE
 )
 RGX_RULE = re.compile(
-    '(\d+)-(\d+)|< (\d+)'
+    '(\d+)-(\d+)|< ?(\d+)|> ?(\d+)'
 )
 
 
@@ -110,7 +110,13 @@ class Day(object):
             table = mdg.Table()
             table.add_column('Pushups')
             for grp in self.set_groups:
-                table.add_column('{}-{}'.format(*grp.rule))
+                _min, _max = grp.rule
+                if _min == 0:
+                    table.add_column('<{}'.format(_max))
+                elif _max >= 0xffffffff:
+                    table.add_column('>{}'.format(_min))
+                else:
+                    table.add_column('{}-{}'.format(*grp.rule))
             rows = list(zip(*(grp.sets for grp in self.set_groups)))
             for k, row in enumerate(rows, 1):
                 if k < len(rows):
@@ -179,6 +185,8 @@ def get_week(n):
             if m:
                 if m.group(3):
                     rule = (0, int(m.group(3)))
+                elif m.group(4):
+                    rule = (int(m.group(4)), 0xffffffff)
                 else:
                     rule = (
                         int(m.group(1)),
